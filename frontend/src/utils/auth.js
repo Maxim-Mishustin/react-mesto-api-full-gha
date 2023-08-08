@@ -1,5 +1,5 @@
 // ФУНКЦИИ СВЯЗАННЫЕ С АУТЕНТИФИКАЦИЕЙ И АВТОРИЗАЦИЕЙ, ОБРАЩАЮЩИЕСЯ К API НА БАЗЕ BASE_URL.
-const BASE_URL = "http://localhost:3000"
+const BASE_URL = "https://api.maxim.nomoreparties.co"
 
 // ФУНКЦИЯ ПРОВЕРЯЮЩАЯ ОТВЕТ ОТ СЕРВЕРА. ВЕРНЕТСЯ СТАТУС ЛИБО 200Й, ЛИБО ОШИБКА
 function checkRes(res) {
