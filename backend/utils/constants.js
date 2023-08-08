@@ -10,8 +10,6 @@ if (NODE_ENV === 'production') {
   config();
 }
 
-
-
 const { authKey = 'dev-secret' } = process.env;
 
 // Регулярное выражение
@@ -23,5 +21,5 @@ module.exports = {
   authKey,
   urlRegex,
   NODE_ENV,
- 
+
 };
