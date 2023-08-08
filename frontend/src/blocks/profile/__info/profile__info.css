@@ -1,0 +1,23 @@
+.profile__info {
+  color: white;
+  position: relative;
+  width: 336px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+@media screen and (max-width: 1055px) {
+  .profile__info {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .profile__info {
+    gap: 8px;
+  }
+}
